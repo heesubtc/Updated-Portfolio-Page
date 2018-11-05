@@ -10,6 +10,10 @@ body {
   box-sizing: border-box;
 }
 
+#content {
+  box-shadow: 7px 6px 5px #dfd4d4;
+}
+
 #name {
   border: 22px #4aaaa5 solid;
   background: #4aaaa5;
@@ -59,6 +63,16 @@ body {
 .portimages {
     height: 220px;
     width: 300px;
+}
+
+.portimages:hover {
+  transform: scale(1.008);
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 768px) {
