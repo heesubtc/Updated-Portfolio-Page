@@ -1,0 +1,74 @@
+header {
+  border-bottom: 2px solid #c9c7c7;
+}
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, san-serif;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+#name {
+  border: 22px #4aaaa5 solid;
+  background: #4aaaa5;
+  color: #ffffff;
+  display: inline;
+  margin: 0;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.footer {
+    height: 80px; 
+    line-height: 40px; 
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    font-size: 12px;
+    padding-top: 22px;
+  }
+
+#content {
+  margin-bottom: 300px;
+}
+
+#content-title {
+  color: #4aaaa5;
+  padding-bottom: 10px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.btn {
+  background-color: #4aaaa5;
+  color: #ffff;
+}
+
+.img {
+  position: relative;
+}
+
+.h3 {
+  background-color: #4aaaa5;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 91%;
+  text-align: center;
+}
+
+.portimages {
+    height: 220px;
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 97%;
+  }; 
+}
+
+@media screen and (min-width: 1200px) {
+  .h3 {
+    width: 85.8%;
+  }
+ }
